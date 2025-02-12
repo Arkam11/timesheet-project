@@ -132,3 +132,23 @@ Response:
                 "updated_at": "2025-02-12T08:06:39.000000Z"
             }
         ]
+
+### Test Credentials        
+Email: john@example.com
+Password: password
+
+### Database Schema
+The database schema includes the following tables:
+
+    users: Stores user information.
+    projects: Stores project details.
+    timesheets: Tracks timesheet entries.
+    attributes: Stores dynamic attributes.
+    attribute_values: Stores values for dynamic attributes.
+
+### Technologies Used
+1. PHP 8.2.x
+2. Laravel 9.x
+3. Laravel Passport 10.x
+4. MySQL
+5. Postman (for API testing)
